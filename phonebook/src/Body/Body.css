@@ -1,0 +1,24 @@
+body {
+    height: 500px;
+    margin-top: 0;
+    text-align: center;
+    overflow-y: scroll;
+}
+table {
+    margin-top:10px;
+    position:absolute;
+    left:50%;
+    width:30em;
+    margin-left: -15em;
+    border: 1px solid grey;
+
+}
+
+.tableHeader {
+    font-weight: bold;
+}
+
+.tableHeader th {
+    border: 1px solid black;
+}
+

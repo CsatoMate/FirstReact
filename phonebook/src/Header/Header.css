@@ -1,0 +1,19 @@
+header {
+    background-color: #222;
+    height: 50px;
+}
+
+.headerPanel {
+    margin-top: 7px;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    color: aqua;
+}
+
+.headerPanel:hover {
+    background-color: grey;
+    cursor: pointer;
+}
