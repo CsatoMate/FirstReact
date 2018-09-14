@@ -1,6 +1,6 @@
 /* The Modal (background) */
 .modal {
-    display: none; /*!* Hidden by default *!*/
+    display: block; /*!* Hidden by default *!*/
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -27,7 +27,7 @@
 }
 
 .modal-body {
-    padding: 0 0 15px 0;
+    padding: 0;
 }
 
 .modal-footer {
@@ -60,3 +60,21 @@
     padding-top: 10px;
 }
 
+.modal-header h2 {
+    padding:0 0 10px 0;
+}
+
+div.ui.large.basic.label.modifyLabel {
+    border:none;
+}
+
+div.ui.massive.basic.label.editLabel {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+.ui.input{
+    width: 50% !important;
+}

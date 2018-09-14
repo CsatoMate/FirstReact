@@ -18,12 +18,3 @@ ReactDOM.render(
     document.getElementById('root'));
 registerServiceWorker();
 
-
-
-
-
-
-/*
-ReactDOM.render(<App />,document.getElementById('root'));
-registerServiceWorker();
-*/

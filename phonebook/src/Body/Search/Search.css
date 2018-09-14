@@ -2,3 +2,21 @@
     padding: 20px;
     font-weight: bold;
 }
+
+.tableBody tr:nth-child(even) {
+    background: #CCC;
+}
+
+button.ui.button.addButton {
+    width: 60%;
+}
+
+div.ui.large.basic.label.searchLabel {
+    font-size: large;
+    padding-bottom: 10px;
+    border:none;
+}
+
+div.ui.icon.input.searchInput{
+    width: 15% !important;
+}

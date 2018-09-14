@@ -1,53 +1,169 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import ModifySelectedUser from "../Modify/Modify";
+import AlertMessage from '../AlertMessage/AlertMessage';
 import './Search.css';
+import axios from "axios";
+import {Button, Icon, Input, Label, Form} from "semantic-ui-react";
+import {orderBy} from "lodash"
+import config from '../../Config/config'
 
 class search extends Component {
 
-    allUsers;
-    constructor(props){
+    lastSearch;
+
+    constructor() {
         super();
-        this.allUsers = props.all;
+        this.state = {
+            receivedPerson: null,
+            name: null,
+            refreshPage: false,
+        };
     }
 
-    render(){
-        let modifyElements;
-        if(this.props.selectedUser != null){
-            modifyElements = <ModifySelectedUser item={this.props.selectedUser}/>
+    componentDidMount() {
+        this.usersReload()
+    }
+
+    setHandlerName(event) {
+        let searchValue = event.target.value;
+
+        if (this.lastSearch !== searchValue) {
+            if (searchValue !== null && this.state.receivedPerson !== null) {
+                axios.get(config.basicNodeUrl + '/api/user/' + searchValue)
+                    .then(res => {
+                        let receivedPerson = [];
+                        let sortedList = orderBy(res.data.items, [user => user.username.toLowerCase()], ['asc']);
+                        sortedList.map(item => {
+                            return (
+                                receivedPerson.push(
+                                    {
+                                        id: item.id,
+                                        name: item.username,
+                                        phone: item.phone,
+                                        age: item.age
+                                    })
+                            )
+                        });
+                        this.setState({
+                            ...this.state,
+                            receivedPerson,
+                        });
+                        this.lastSearch = searchValue;
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                    })
+            }
+        }
+    }
+
+    usersReload() {
+        /**
+         * Return all users
+         */
+        axios.get(config.basicNodeUrl + '/api/user')
+            .then(res => {
+                let receivedPerson = [];
+
+                let sortedList = orderBy(res.data.items, [user => user.username.toLowerCase()], ['asc']);
+                sortedList.map(item => {
+                    return (
+                        receivedPerson.push(
+                            {
+                                id: item.id,
+                                name: item.username,
+                                phone: item.phone,
+                                age: item.age
+                            })
+                    )
+                });
+                this.setState({
+                    ...this.state,
+                    refreshPage: false,
+                    receivedPerson
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
+
+    componentWillReceiveProps() {
+        this.usersReload();
+    }
+
+    render() {
+        let modifyElements = null;
+        let popUp = null;
+
+        if (this.props.modalOpened) {
+            modifyElements =
+                <ModifySelectedUser item={this.props.selectedUser}/>
+        }
+        if (this.props.alertOpened === 'delete') {
+            modifyElements =
+                <AlertMessage deleteId={this.props.selectedUser.id} deletedUser={true}/>
+        }
+
+        if (this.props.alertOpened === 'edit') {
+            popUp = <AlertMessage item={this.props.modifyPerson} deletedUser={false}/>
+        }
+
+        if (this.state.refreshPage) {
+            this.usersReload();
+        }
+
+        let showedItems = [];
+        if (this.state.receivedPerson !== null) {
+
+            showedItems = this.state.receivedPerson.map(item => {
+                return (
+                    <tr key={item.id}>
+                        <td>{item.name}</td>
+                        <td>{item.phone}</td>
+                        <td>{item.age}</td>
+                        <td className='modifyButton'
+                            id='modifyBtn'>
+                            <Button icon onClick={this.props.modifyUser.bind(this, 'modify', item)}><Icon
+                                name='pencil alternate' color='teal'/></Button>
+                        </td>
+                        <td><Button icon className="deleteButton"
+                                    onClick={this.props.clickDeleteButton.bind(this, item)}><Icon
+                            name='trash alternate outline' color='teal'/></Button></td>
+                    </tr>
+                );
+            });
         }
 
         return (
-            <body>
-                <div id="myModal" className="modal"> {modifyElements} </div>
-
-                <div className="SearchDiv">
-                    <div>Search User:</div>
-                    <input type="text" onChange={this.props.modifyName.bind(this, "newUser")} placeholder='Write name to search'/>
-                </div>
+            <div>
+                {modifyElements}
+                {popUp}
+                <Form.Field className="SearchDiv">
+                    <Label basic size='large' className="searchLabel">Search User:</Label><br/>
+                    <Input icon='search' className='searchInput' type="text" onChange={this.setHandlerName.bind(this)}
+                           placeholder='Write name to search'/>
+                </Form.Field>
 
                 <table>
                     <thead className="tableHeader">
-                    <th>Name:</th>
-                    <th>Phone:</th>
-                    <th>Age:</th>
-                    <th ><button className='addButton' onClick={this.props.modifyUser.bind(this)}>ADD</button></th>
+                    <tr>
+                        <th>Name:</th>
+                        <th>Phone:</th>
+                        <th>Age:</th>
+                        <th colSpan='2'>
+                            <Button icon className='addButton'
+                                    onClick={this.props.modifyUser.bind(this, 'create')}><Icon
+                                name='add user' color='teal'/></Button>
+                        </th>
+                    </tr>
                     </thead>
                     <tbody className="tableBody">
-                    {this.allUsers.map(item => {
-                        return (
-                            <tr data={item}>
-                                <td>{item.name}</td>
-                                <td>{item.phone}</td>
-                                <td>{item.age}</td>
-                                <td className='modifyButton' onClick={this.props.modifyUser.bind(this, item)} id='modifyBtn' ><button>Modify</button></td>
-                            </tr>
-                            )
-                        })
-                    }
+                    {showedItems}
                     </tbody>
                 </table>
-            </body>
+            </div>
         )
     }
 }
@@ -56,48 +172,27 @@ class search extends Component {
 const mapStateToProps = state => {
     return {
         selectedUser: state.selectedUser,
-        newUser: state.person
+        modalOpened: state.modalOpened,
+        refreshPage: state.refreshPage,
+        alertOpened: state.alertOpened,
+        modifyPerson: state.modifyPerson
     }
 };
 
 //küldő
 const mapDispatchToProps = dispatch => {
     return {
-        //To search user
-        modifyName: (name) => {
-            console.log('SEARCH Dispatch',name.target.value);
-            dispatch({type:'SEARCH NAME', searchname:name.target.value});
-        },
         //To modify user
-        modifyUser: (selectedUser) => {
-            console.log(selectedUser);
-            dispatch({type: 'MODIFY USER', selectedUser: selectedUser});
-            document.getElementById('myModal').style.display = "block"
-
+        modifyUser: (type, selectedUser) => {
+            dispatch({type: 'MODIFY USER', selectedUser: selectedUser, modalOpened: true, userType: type});
+        },
+        clickDeleteButton: (selectedUser) => {
+            dispatch({type: 'DElETE BUTTON', selectedUser: selectedUser, alertOpened: 'delete'});
         }
     }
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(search);
 
-/*const searchi =(props) =>{
-        return (
-            <div id="myModal" className="modal"> {props.modifyUser} </div>,
 
-            <div>
-                <div>Search User:</div>
-                <input type="text" onChange={props.modifyName.bind(this)} placeholder='Write name to search'/>
-            </div>,
-
-            <table>
-                <thead className="tableHeader">
-                <th>Name:</th>
-                <th>Phone:</th>
-                <th>Age:</th>
-                <th ><button className='addButton'>ADD</button></th>
-                </thead>
-                <HomePageBody allUser={this.allUsers}/>
-            </table>
-        )
-};*/
 

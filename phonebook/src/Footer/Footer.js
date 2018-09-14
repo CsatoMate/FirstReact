@@ -3,7 +3,7 @@ import React from 'react';
 const footer = () => {
     return (
 <footer>
-    <p> Created by Máté! </p>
+    <p> Created by Máté Csató! </p>
 </footer>
     )
 };

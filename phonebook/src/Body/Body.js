@@ -1,31 +1,25 @@
 import {connect} from "react-redux";
 import React, {Component} from 'react';
-import SearchPage from "./Search/Search";
-//import HomePageBody from "./Home/Home"
+import UserManagementPage from "./Search/Search";
+import HomePage from "./Home/Home";
 
-class bodyPage extends Component{
+class bodyPage extends Component {
 
-    allUsers;
-    constructor(props){
-        super();
-        this.allUsers = props.all;
-    }
+    render() {
+        let dynamicElement = <br/>;
 
-    render(){
-        let dynamicElement=<br />;
-
-        switch(this.props.page){
+        switch (this.props.page) {
             case "home":
-                dynamicElement=<div>Hello Visitor</div>;
+                dynamicElement = <HomePage/>;
                 break;
             case "management":
-                dynamicElement=<SearchPage all={this.allUsers} />;
+                dynamicElement = <UserManagementPage/>;
                 break;
             case "modify":
-                dynamicElement=<div>MODIFY page</div>;
+                dynamicElement = <div>About page</div>;
                 break;
             default:
-                dynamicElement= <div>Hello Visitor</div>;
+                dynamicElement = <div>Hello Visitor</div>;
                 break;
         }
 
@@ -42,8 +36,7 @@ class bodyPage extends Component{
 const mapStateToProps = state => {
     return {
         page: state.page,
-        selectedUser: state.selectedUser
     }
 };
 
-export default connect(mapStateToProps,null)(bodyPage);
+export default connect(mapStateToProps, null)(bodyPage);

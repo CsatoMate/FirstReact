@@ -1,33 +1,53 @@
 const initialState = {
     page:'management',
+    modalOpened: false,
+    searchName: null,
+    refreshPage: false,
+    alertOpened: 'none',
 };
 
 const reducer = (state = initialState, action) => {
     if (action.type === 'NAVIGATION') {
         return {
             ...state,
-            page: action.actualpage
-        }
-    }
-
-    if (action.type === 'SEARCH NAME') {
-        return {
-            ...state,
-            searchName: action.searchname
+            page: action.actualPage,
         }
     }
 
     if (action.type === 'MODIFY USER') {
         return {
             ...state,
-            selectedUser: action.selectedUser
+            selectedUser: action.selectedUser,
+            modalOpened: action.modalOpened,
+            userType: action.userType,
         }
     }
 
-    if (action.type === 'Add USER') {
+    //Save modify or new User
+    if (action.type === 'SAVE MODIFY') {
         return {
             ...state,
-            newUser: action.selectedUser
+            refreshPage: action.refreshPage,
+            alertOpened: action.alertOpened,
+            modifyPerson: action.modifyPerson
+        }
+    }
+
+    //Close Load Box
+    if (action.type === 'CLICK CLOSE') {
+        return {
+            ...state,
+            modalOpened: action.modalOpened,
+            refreshPage: action.refreshPage,
+            alertOpened: action.alertOpened
+        }
+    }
+
+    if (action.type === 'DElETE BUTTON') {
+        return {
+            ...state,
+            selectedUser: action.selectedUser,
+            alertOpened: action.alertOpened
         }
     }
 

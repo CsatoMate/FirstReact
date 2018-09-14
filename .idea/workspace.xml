@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/phonebook/src/App.js" line="5" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f47511-b140-4190-a507-6471ec5b7048" name="Default Changelist" comment="" />
+    <list default="true" id="27f47511-b140-4190-a507-6471ec5b7048" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Search/Search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Body/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Body/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook/src/store/reducer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,89 +34,94 @@
     <session id="-629988502">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
-          <entry key="js" value="30" />
-          <entry key="json" value="2" />
+          <entry key="css" value="50" />
+          <entry key="gitattributes" value="1" />
+          <entry key="html" value="4" />
+          <entry key="ico" value="2" />
+          <entry key="js" value="121" />
+          <entry key="json" value="11" />
           <entry key="svg" value="2" />
+          <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="30" />
+          <entry key="CSS" value="50" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="121" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="2" />
+          <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1555" />
-          <entry key="js" value="9094" />
+          <entry key="css" value="2311" />
+          <entry key="html" value="13" />
+          <entry key="js" value="25022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1555" />
-          <entry key="JavaScript" value="9094" />
+          <entry key="CSS" value="2311" />
+          <entry key="HTML" value="13" />
+          <entry key="JavaScript" value="25022" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Body.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="118" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="118" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Search/Search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phonebook/src/Config/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +141,22 @@
     <findStrings>
       <find>forEach</find>
       <find>tableHeader</find>
+      <find>consol</find>
+      <find>modifyUser</find>
+      <find>refreshPage</find>
+      <find>true</find>
+      <find>props.refreshPage</find>
+      <find>console</find>
+      <find>React app</find>
+      <find>modalOpened</find>
+      <find>userType</find>
+      <find>clickSaveButton</find>
+      <find>alertOpened</find>
+      <find>modifyPerson</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,25 +165,31 @@
         <option value="$PROJECT_DIR$/phonebook/src/header/header.js" />
         <option value="$PROJECT_DIR$/phonebook/src/header/Header.js" />
         <option value="$PROJECT_DIR$/phonebook/src/header/Header.css" />
-        <option value="$PROJECT_DIR$/phonebook/src/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/phonebook/src/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/phonebook/src/Header/Header.css" />
         <option value="$PROJECT_DIR$/phonebook/src/App.css" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Body.css" />
         <option value="$PROJECT_DIR$/phonebook/src/containers/VisibleList.js" />
-        <option value="$PROJECT_DIR$/phonebook/src/index.js" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Search/search.js" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Home.js" />
-        <option value="$PROJECT_DIR$/phonebook/src/App.js" />
-        <option value="$PROJECT_DIR$/phonebook/src/Body/Home/Home.css" />
-        <option value="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css" />
-        <option value="$PROJECT_DIR$/phonebook/src/Body/Home/Home.js" />
-        <option value="$PROJECT_DIR$/phonebook/src/Header/Header.js" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Body.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/Home/Home.js" />
+        <option value="$PROJECT_DIR$/phonebook/public/index.html" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Search/Search.css" />
-        <option value="$PROJECT_DIR$/phonebook/src/store/reducer.js" />
-        <option value="$PROJECT_DIR$/phonebook/src/Body/Search/Search.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/DeleteAlert/DeleteYesorNo.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/DeleteAlert/DeleteYesorNo.css" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css" />
         <option value="$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Header/Header.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/App.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/index.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.css" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/Home/Home.css" />
+        <option value="$PROJECT_DIR$/phonebook/src/Footer/Footer.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Body/Search/Search.js" />
+        <option value="$PROJECT_DIR$/phonebook/src/Config/config.js" />
       </list>
     </option>
   </component>
@@ -562,19 +610,20 @@
       <path value="$PROJECT_DIR$/phonebook/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="20" />
     <option name="width" value="1920" />
     <option name="height" value="1170" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -586,6 +635,12 @@
               <item name="FirstReact" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstReact" type="462c0819:PsiDirectoryNode" />
               <item name="phonebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstReact" type="462c0819:PsiDirectoryNode" />
+              <item name="phonebook" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstReact" type="b2602c69:ProjectViewProjectNode" />
@@ -621,20 +676,92 @@
               <item name="FirstReact" type="462c0819:PsiDirectoryNode" />
               <item name="phonebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstReact" type="462c0819:PsiDirectoryNode" />
+              <item name="phonebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstReact" type="462c0819:PsiDirectoryNode" />
+              <item name="phonebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AlertMessage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FirstReact" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FirstReact" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="phonebook" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Footer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535982761645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536845844225" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -644,9 +771,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mate.Csato\Documents\GitHub\FirstReact\phonebook\src\Config" />
       <recent name="C:\Users\Mate.Csato\Documents\GitHub\FirstReact\phonebook\src\Body\Home" />
     </key>
   </component>
@@ -675,12 +804,22 @@
       <workItem from="1535529681731" duration="17230000" />
       <workItem from="1535612442340" duration="12797000" />
       <workItem from="1535696030600" duration="21046000" />
-      <workItem from="1535958380551" duration="18422000" />
+      <workItem from="1535958380551" duration="18898000" />
+      <workItem from="1536040676691" duration="23560000" />
+      <workItem from="1536127114523" duration="18267000" />
+      <workItem from="1536213125971" duration="19065000" />
+      <workItem from="1536300369212" duration="22309000" />
+      <workItem from="1536560791112" duration="21850000" />
+      <workItem from="1536645884748" duration="33000" />
+      <workItem from="1536645945317" duration="22174000" />
+      <workItem from="1536732712740" duration="17065000" />
+      <workItem from="1536818455587" duration="11844000" />
+      <workItem from="1536907335870" duration="10656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69495000" />
+    <option name="totallyTimeSpent" value="236794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
@@ -691,19 +830,20 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32944608" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.23809524" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32944608" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -725,34 +865,10 @@
     <entry file="file://$PROJECT_DIR$/phonebook/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/phonebook/node_modules/react-scripts/template/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -784,10 +900,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/npm/node_modules/npm-registry-client/lib/star.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/containers/VisibleList.js" />
+    <entry file="file://$PROJECT_DIR$/phonebook/node_modules/react/umd/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/node_modules/semantic-ui-react/dist/commonjs/elements/Button/Button.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17116" column="12" selection-start-line="17116" selection-start-column="12" selection-end-line="17116" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/node_modules/lodash/orderBy.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/npm/node_modules/dashdash/lib/dashdash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2497">
+          <caret line="537" column="4" selection-start-line="537" selection-start-column="4" selection-end-line="537" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/phonebook/src/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/node_modules/formsy-semantic-ui-react/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="127" selection-start-line="5" selection-start-column="127" selection-end-line="5" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/node_modules/semantic-ui-react/dist/commonjs/modules/Modal/Modal.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Home/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -798,88 +1096,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/npm/node_modules/npm-registry-client/lib/star.js">
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Home/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="436">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/App.js">
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Search/Search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Header/Header.js">
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Footer/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/containers/VisibleList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/store/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -890,37 +1127,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Body.js">
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/AlertMessage/AlertMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Modify/Modify.js">
+    <entry file="file://$PROJECT_DIR$/phonebook/src/Config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="118" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Search/Search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phonebook/src/Body/Search/Search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

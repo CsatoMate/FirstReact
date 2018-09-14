@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "formsy-react": "^1.1.4",
+    "formsy-semantic-ui-react": "^0.3.3",
+    "lodash": "^4.17.10",
+    "npm": "^6.4.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-formally": "^0.5.1",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.5",
     "redux": "^4.0.0",
+    "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.3"
   },
   "scripts": {

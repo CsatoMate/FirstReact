@@ -1,16 +1,15 @@
 import React from 'react';
-import {connect} from "react-redux";
+//import {connect} from "react-redux";
 import './Home.css';
 
-
-const home = (props) => {
+const home = () => {
     return (
-        <body>
-            HOME PAGE
-        </body>
+        <div>
+            THIS is HOME Page!
+        </div>
     )
 };
 
+export default home;
 
-
-export default connect(null,mapDispatchToProps)(home);
+/*export default connect(null,mapDispatchToProps)(home);*/
